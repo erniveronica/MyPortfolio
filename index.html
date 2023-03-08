@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="main-home">
+            <img class="gambar" src="minion.png">
+            <h1>Hi Guys!</h1>
+            <h2>I'm <span class="name"></span></h2>
+            <p>This is my first portfolio site</p>
+        </div>
+    </section>
+    <script>
+        var typed = new Typed(".name",{
+          strings:["Erni Veronica Sidabutar"],
+          typeSpeed: 200,
+          backSpeed: 80,
+          loop: true});
+      </script>
+
+      <footer>
+        <div class="main-footer">
+            <p>copyright@2023 by Erni Veronica Sidabutar</h1>
+        </div>
+      </footer>
+
+</body>
+</html>

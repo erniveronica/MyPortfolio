@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+/* header start */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    
+}
+
+.logo{
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    color:#7B2869;
+    padding: 10px 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.navbar ul li a{
+    display: block;
+    color: #7B2869;
+    font-size: 20px;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.navbar ul li a:hover{
+    color: white;
+    background-color:#7B2869;
+} 
+/* header end */
+
+
+/* home start */
+.home,.about,.project,.contact{
+    background-color:#7B2869;
+    min-height: 75vh;
+}
+
+.main-home h1{
+    font-size: 40px;
+    color: white;
+    padding: 100px 0px 0px 200px;
+}
+
+span{
+    color: #FFCEFE;
+}
+
+.main-home h2{
+    font-size: 55px;
+    color: rgb(110, 250, 247);
+    padding: 20px 200px;
+}
+
+.main-home p{
+    font-size: 20px;
+    color:  rgb(110, 250, 247);
+    padding: 5px 200px;
+}
+
+.gambar{
+    height: 400px;
+    float: right;
+    padding: 30px 100px 0px 0px;
+}
+/* home end*/
+
+
+/* about start */
+.main-about h1, .main-project h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+}
+
+.main-about h2{
+    font-size: 25px;
+    padding: 10px 0px 0px 100px;
+    color: aqua;
+}
+
+.main-about p{
+    font-size: 18px;
+    padding: 0px 150px 0px 350px;
+    text-align: justify;
+    color: bisque;
+}
+
+.gambar1{
+    height: 300px;
+    float: left;
+    padding: 0px 0px 0px 50px;
+    border-radius: 350px;
+}
+/* about end */
+
+
+/* project start */
+.project1, .project2{
+    height: 280px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.main-project p{
+    font-size: 18px;
+    text-align: center;
+    color: bisque;
+}
+/* project end */
+
+/* contact start */
+.main-contact h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 15px;
+    color: white;
+}
+
+form{
+    padding: 0px 20px 0px 100px;
+    font-size: 18px;
+    color: bisque;
+}
+
+input, textarea{
+    font-size: 15px;
+}
+
+.name, .genre, .email, .context, .file{
+    padding: 0px 0px 5px 10px;
+}
+
+.name input, .email input{
+    width: 350px;
+    height: 40px;
+    padding-top: -100px;
+}
+
+.genre input{
+    width: 40px;
+}
+
+select{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.ask{
+    float: right;
+    margin-top: -270px;
+    margin-right: 250px;
+}
+
+.ask input{
+    width: 45px;
+    height: 20px;
+}
+
+.file input{
+    font-size: 15px;
+    padding: 2px 0px 10px 0px;
+}
+
+.message{
+    float: right;
+    margin-top: -210px;
+    margin-right: 160px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px;
+}
+
+button.submit{
+    background-color: #fbe4fa;
+}
+
+button.reset{
+    background-color: rgb(248, 251, 225);
+}
+/* contact end */
+
+/* footer start */
+footer{
+    min-height: 11.5vh;
+}
+
+.main-footer p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px;
+}
+/* footer end */
